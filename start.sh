@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-python proxyPool.py server &
-python proxyPool.py schedule
+${PWD}/.venv/bin/python3 proxyPool.py server &
+${PWD}/.venv/bin/python3 proxyPool.py schedule

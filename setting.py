@@ -37,7 +37,7 @@ PORT = 5010
 # example:
 #      Redis: redis://:password@ip:port/db
 #      Ssdb:  ssdb://:password@ip:port
-DB_CONN = 'redis://:pwd@127.0.0.1:6379/0'
+DB_CONN = 'redis://@127.0.0.1:6379/0'
 
 # proxy table name
 TABLE_NAME = 'use_proxy'
@@ -45,17 +45,52 @@ TABLE_NAME = 'use_proxy'
 
 # ###### config the proxy fetch function ######
 PROXY_FETCHER = [
-    "freeProxy01",
-    "freeProxy02",
+#    "freeProxy01",
+#    "freeProxy02",
     "freeProxy03",
-    "freeProxy04",
-    "freeProxy05",
-    "freeProxy06",
-    "freeProxy07",
-    "freeProxy08",
-    "freeProxy09",
-    "freeProxy10",
-    "freeProxy11"
+#    "freeProxy04",
+#    "freeProxy05",
+#    "freeProxy06",
+#    "freeProxy07",
+#    "freeProxy08",
+#    "freeProxy09",
+#    "freeProxy10",
+    "freeProxy11",
+#    "freeProxy12",
+    "freeProxy13",
+#    "freeProxy14",
+    "freeProxy15",
+    "freeProxy16",
+    "freeProxy17",
+#    "freeProxy18",
+#    "freeProxy19",
+#    "freeProxy20",
+#    "freeProxy21",
+    "freeProxy22",
+#    "freeProxy23",
+    "freeProxy24",
+#    "freeProxy25",
+#    "freeProxy26",
+#    "freeProxy27",
+    "freeProxy28",
+#    "freeProxy29",
+#    "freeProxy30",
+    "freeProxy31",
+#    "freeProxy32",
+#    "freeProxy33",
+    "freeProxy34",
+#    "freeProxy35",
+    "freeProxy36",
+    "freeProxy37",
+    "freeProxy38",
+    "freeProxy39",
+    "freeProxy40"
+    "freeProxy41",
+    "freeProxy42",
+    "freeProxy43",
+    "freeProxy44",
+    "wallProxy01"
+
 ]
 
 # ############# proxy validator #################
@@ -74,11 +109,11 @@ MAX_FAIL_COUNT = 0
 # MAX_FAIL_RATE = 0.1
 
 # proxyCheck时代理数量少于POOL_SIZE_MIN触发抓取
-POOL_SIZE_MIN = 20
+POOL_SIZE_MIN = 2000000
 
 # ############# proxy attributes #################
 # 是否启用代理地域属性
-PROXY_REGION = True
+PROXY_REGION = False
 
 # ############# scheduler config #################
 
